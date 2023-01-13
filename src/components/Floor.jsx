@@ -5,13 +5,19 @@ import { Fade } from 'react-awesome-reveal'
 import Fireworks from './Fireworks'
 import Lama from './Lama'
 import Turtle from './Turtle'
+import mother from '../assets/m1.jpeg'
+import wife from '../assets/m2.jpeg'
+import daughter from '../assets/m4.jpeg'
+
 
 
 const Floor = () => {
   return (
     <div className='bod' >
+        
 
         <div className='first__line' >
+
             <div className='bar' />
 
             <div className='first__shape__case' >
@@ -23,14 +29,18 @@ const Floor = () => {
             <div className='mobile__top2' />
 
             <div className='stuff' >
+
                 <div className='top__turtle__case' >
                     <Turtle />
                 </div>
-                <div className='text__glow' />
+                <div className='text__glow' >
+                <h1 className='title' >Happy Birthday Mom</h1>
+                <h1 className='cake' >🎂</h1>
+                </div>
                 <div className='mobile__heading' >
                     <Fade
                     >
-                        <h1 className='title' >Happy Birthday Mom</h1>
+                        <h1 className='m__title' >Happy Birthday Mom</h1>
                     </Fade>
                 </div>
 
@@ -60,7 +70,7 @@ const Floor = () => {
                 <div className='second__case' >
                     <div className='img__back' />
                     <img 
-                    src='https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' 
+                    src={mother} 
                     alt='images'
                     className='for__img' />
                     <h2 className='second__text' >A Mother</h2>
@@ -70,7 +80,7 @@ const Floor = () => {
                     <div className='img__back' />
                     <img
                     alt='images' 
-                    src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+                    src={wife}
                     className='for__img' />
                     <h2 className='second__text' >A Wife</h2>
                 </div>
@@ -79,7 +89,7 @@ const Floor = () => {
                     <div className='img__back' />
                     <img 
                     alt='images'
-                    src='https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' 
+                    src={daughter}
                     className='for__img' />
                     <h2 className='second__text' >A Daughter</h2>
                 </div>
@@ -93,8 +103,12 @@ const Floor = () => {
                 <div>
                     <div className='third__back__shape1' >
                         <div className='text__c' >
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <h3>placeholder</h3>
+                            <p>
+                            Mummy, I love you so much 
+                            You have done so much for me, You have been there for me during my most challenging times, Whenever I did something wrong and didn't know you would call me personally and tell me it was wrong 
+                            I love you so much that there is no way I can repay you for all the things you have done for me
+                            </p>
+                            <h3 className='text__c1' >Gabrielle</h3>
                         </div>
                     </div>
                 </div>
@@ -102,8 +116,12 @@ const Floor = () => {
                 <div>
                     <div className='third__back__shape2' >
                         <div className='text__c' >
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                            <h3>something</h3>
+                            <p>
+                            Dear mummy, 
+                            I want to wish you a very happy birthday on a special day because I am so happy that you are finally doing a lot of things that make you happy, 
+                            I am so grateful to God that you are my mum and I love you soo much 
+                            </p>
+                            <h3>Shawnice</h3>
                         </div>
                     </div>
                 </div>
@@ -111,8 +129,11 @@ const Floor = () => {
                 <div>
                     <div className='third__back__shape3' >
                         <div className='text__c' >
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <h3>namey</h3>
+                            <p>
+                            Mummy, I love you so much and I wish you a happy birthday and many more years to come I always thank God for all the grateful things he has said and done for you and all of us, I love you 
+                            mummy so much and you are the best coach, mum, wife and friend anyone can ever had.
+                            </p>
+                            <h3>Michelle</h3>
                         </div>
                     </div>
                 </div>

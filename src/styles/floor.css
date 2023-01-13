@@ -8,6 +8,7 @@
     overflow: hidden;
     flex-direction: column;
     background-color: rgb(237, 241, 255);
+    /* background-color: white; */
 }
 
 .first__line {
@@ -37,15 +38,20 @@
 
 .text__glow {
     position: absolute;
-    height: 40%;
-    width: 60%;
-    right: 2rem; 
-    top: 9rem;
-    border-radius: 1rem;
-    -webkit-box-shadow:0px 0px 105px 18px rgba(96,63,131,0.9);
-    -moz-box-shadow: 0px 0px 105px 18px rgba(96,63,131,0.9);
-    box-shadow: 0px 0px 105px 18px rgba(96,63,131,0.9);
-    background-color: rgb(237, 241, 255);
+    height: 26%;
+    min-width: 50%;
+    right: 7.8rem; 
+    /* left: 30rem; */
+    top: 10rem;
+    border-radius: 5px;
+    /* -webkit-box-shadow:0px 0px 105px 18px rgba(46, 42, 49, 0.842);
+    -moz-box-shadow: 0px 0px 105px 18px rgba(46, 42, 49, 0.842);
+    box-shadow: 0px 0px 105px 18px rgba(46, 42, 49, 0.842); */
+    /* background-color: rgb(237, 241, 255); */
+    /* background-color: white; */
+    background-color: transparent;
+    /* background-color: red; */
+    /* background-image: url('../assets/theice.jpg'); */
 }
 
 
@@ -66,14 +72,15 @@
     height: 25rem;
     width: 25rem;
     border-radius: 22% 78% 22% 78% / 66% 34% 66% 34%  ;
-    background-color: rgb(224, 145, 69);
+    /* background-color: rgb(224, 145, 69); */
+    background-color: rgba(224, 144, 69, 0.801);
 }
 
 .first__shape2 {
     height: 35rem;
     width: 35rem;
     border-radius: 57% 43% 37% 63% / 52% 40% 60% 48% ;
-    background-color: #f95950;
+    background-color: #f95850cb;
 }
 
 
@@ -87,15 +94,25 @@
     font-family: 'Solway', serif;
     /* font-family: 'Satisfy', cursive; */
     /* font-family: 'Roboto Slab', serif; */
-    font-size: 5.6em;
-    position: absolute;
+    /* font-size: 4.8em; */
+    font-size: 5.1rem;
+    /* position: absolute; */
     text-align: center;
-    top: 10%;
-    left: 36%;
+    /* top: 10%;
+    left: 36%; */
 
 }
 
-@media screen and (min-width : 1500px) {
+.cake {
+    text-align: center;
+    font-size: 4em;
+}
+
+.m__title {
+    display: none;
+}
+
+/* @media screen and (min-width : 1500px) {
     .title {
         margin-top: 6.3%;
         font-size: 6.5em ;
@@ -109,7 +126,7 @@
         margin-top: 6%;
         font-size: 7em;
     }
-}
+} */
 
 
 .stuff {
@@ -177,6 +194,8 @@
     position: absolute;
     margin-bottom: 5.6rem;
     border-radius: 10px;
+    border-width: 4px;
+    border-color: white;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     box-shadow:
     19.7px 18.2px 2.2px rgba(0, 0, 0, 0.02),
@@ -204,6 +223,7 @@
     clip-path: polygon(0 0, 76% 0, 100% 100%, 22% 100%);
     background-color: #0F0F0F;
 }
+
 
 .second__mobile__spacing {
     display: none;
@@ -278,11 +298,11 @@
     flex-direction: column;
     height: 26rem;
     /* background-color: rgba(137, 43, 226, 0.37); */
-    background-color: rgba(137, 43, 226, 0.315);
+    background-color: rgba(137, 43, 226, 0.212);
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-family: 'Solway', serif;
     margin: 0 3.5rem;
     margin-top: 1rem;
@@ -294,6 +314,11 @@ h3 {
     font-size: 1.8rem;
     font-family: 'Roboto Slab', serif;
     color: var(--white-color);
+    margin-bottom: 6px;
+}
+
+.text__c1 {
+    margin-top: 8px;
 }
 
 
@@ -304,6 +329,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0.5rem;
 }
 
 
@@ -311,19 +337,39 @@ h3 {
     /* color: rgb(237, 241, 255); */
     color: var(--Stan-color);
     text-shadow: 1rem;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Roboto Slab', serif;
 }
 
 
 @media screen and (max-width : 450px) {
-    .title {
+    .m__title {
+        display: initial;
         font-size: 4rem;
         left: 0;
         top: -2.6rem;
         align-self: center;
         color: #161528;
         letter-spacing: 0.3rem;
+        
+        text-align: center;
+        color: #161528;
+        margin-top: 7.4%;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+        font-family: 'Solway', serif;
+        /* font-family: 'Satisfy', cursive; */
+        /* font-family: 'Roboto Slab', serif; */
+        font-size: 4em;
+        position: absolute;
+        /* text-align: center; */
+        /* top: 10%;
+        left: 36%; */
+    
+    }
+
+    .cake {
+        display: none;
     }
 
     .text__glow {
@@ -403,6 +449,7 @@ h3 {
         width: 16rem;
         height: 23.5rem;
         position: relative;
+        margin-top: 0.8rem;
         transition: 0.2s ease-in-out ;
     }
 
@@ -420,6 +467,7 @@ h3 {
         /* margin-bottom: 3rem; */
         position: absolute;
     }
+
     
     .second__mobile__spacing {
         display: initial;
@@ -435,7 +483,7 @@ h3 {
     }
 
     .third__back__shape2 {
-        margin: 5.5rem 0;
+        margin: 7rem 0;
     }
 
     .foot {
