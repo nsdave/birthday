@@ -454,8 +454,8 @@ h3 {
     }
 
     .for__img:hover {
-        width: 17rem;
-        height: 24.5rem;
+        width: 17.5rem;
+        height: 25rem;
         transition: 0.2s ease-in-out ;
     }
 
